@@ -9,15 +9,15 @@ body {
 #digital {
    text-align: center;
    color: #FFFF66;
-   margin-top: 20%;
-   font-size: 115px;
+   margin-top: 25%;
+   font-size: 120px;
    font-family: 'Poller One', cursive;
 }
 
 
 .animated {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
