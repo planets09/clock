@@ -16,20 +16,20 @@ var seconds = today.getSeconds();
 	  time  = " AM";
 	}
 
-//convert hours to 12 hour format:
+//convert hours to 12-hour format:
 	if (hours>12){
 //need to subtract 12 to convert from military time.
 		hours = hours - 12;
 	}
-	else if (hours===0){
+	else if (hours === 0){
 		hours = 12;	
 	}
-	else {
-		alert("Clock is not running properly!");
-	}
+	// else {
+	// 	alert("Clock is not running properly!");
+	// }
 
 //Put 0 in front of (single digit) minutes:
-	if (minutes<10){
+	if (minutes < 10){
 		minutes = "0" + minutes;
 	}
 	else {
@@ -37,7 +37,7 @@ var seconds = today.getSeconds();
 	}
 
 //Put 0 in front of (single digit) seconds:
-	if (seconds<10){
+	if (seconds < 10){
 		seconds = "0" + seconds;
 	}
 	else {
